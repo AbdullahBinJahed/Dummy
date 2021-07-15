@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>while.html</title>
+<script type = "text/javascript">
+      function getPassword()
+      {
+        var correct = "Adachi";
+        var guess = "";
+        
+        while (guess != correct)
+        {
+          guess = prompt("Password?");
+        }
+        
+        alert("You may proceed");
+      }
+</script>
+  </head>
+  <body onload = "getPassword()">
+
+    <h1>While Loop Demo</h1>
+    <p>The password is ''</p>
+    <form action = "">
+      <fieldset>
+        <button type = "button"
+          onclick = "getPassword()">
+          Guess the password
+        </button>
+
+        <button type = "button"
+          onclick = "threeTries()">
+          Guess the password in three tries
+        </button>
+      </fieldset>
+    </form>
+
+  </body>
+</html>		
