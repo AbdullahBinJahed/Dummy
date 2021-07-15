@@ -1,39 +1,17 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>while.html</title>
-<script type = "text/javascript">
-      function getPassword()
-      {
-        var correct = "Adachi";
-        var guess = "";
-        
-        while (guess != correct)
-        {
-          guess = prompt("Password?");
-        }
-        
-        alert("You may proceed");
-      }
-</script>
-  </head>
-  <body onload = "getPassword()">
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Manga Portesos tui?</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
 
-    <h1>While Loop Demo</h1>
-    <p>The password is ''</p>
-    <form action = "">
-      <fieldset>
-        <button type = "button"
-          onclick = "getPassword()">
-          Guess the password
-        </button>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- See JS -->
+<!-- partial -->
+  <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/Stage%400.2.0.js'></script><script  src="./script.js"></script>
 
-        <button type = "button"
-          onclick = "threeTries()">
-          Guess the password in three tries
-        </button>
-      </fieldset>
-    </form>
-
-  </body>
-</html>		
+</body>
+</html>
